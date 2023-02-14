@@ -1,18 +1,3 @@
-.question-img {
-    background-image: url(../assets/images/redandblue.jpg);
-    background-position: center center;
-    background-size: cover;
-    min-height: 380px;
-    border-radius: 23px;
-    padding: 80px 60px;
-}
-
-.question-img-centered-txt {
-    position: relative;
-    text-align: center;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.question{
+    
 }
