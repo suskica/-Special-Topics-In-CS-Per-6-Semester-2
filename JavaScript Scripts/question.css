@@ -1,3 +1,21 @@
-.question{
-    
+.question {
+    margin: auto;
+    width: 100%;
+}
+
+.question-img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+.question-column {
+    float: left;
+    width: 50%;
+}
+
+.question-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
