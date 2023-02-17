@@ -23,6 +23,7 @@
 
     <!-- Our CSS -->
     <link rel="stylesheet" href="Our CSS\question.css">;
+    <link rel="stylesheet" href="Our CSS\interactionButtons.css">;
 <!--
 
 TemplateMo 579 Cyborg Gaming
@@ -114,9 +115,19 @@ https://templatemo.com/tm-579-cyborg-gaming
                       <div class="row">
                         <div class="col-lg-12">
                           <!-- interaction stuff should go bellow here -->
-                          <div class="heading-section">
-                            <h4>put interaction buttons here</h4>
+                          <div class="box">
+                            Text hello!
                           </div>
+                          <button onclick="changeColor('blue')">Blue</button>
+                          <button onclick="changeColor('red')">Red</button>
+                          <button onclick="changeColor('green')">Green</button>
+                          <button onclick="changeColor('cyan')">Cyan</button>
+
+                          <script>
+                            function changeColor(color){
+                              document.querySelector('.box').style.color = color;
+                            }
+                          </script>
                         </div>
                         <!--more stuff here-->
                       </div>
