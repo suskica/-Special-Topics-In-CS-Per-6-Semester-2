@@ -1,4 +1,4 @@
-//old api
+//old api, has better questions button 100 api usage limit per day or month or something, probably use this for daily question
 /*const options = {
 	method: 'GET',
 	headers: {
@@ -14,6 +14,7 @@ function refreshQuestion() {
 		.catch(err => console.error(err));
 }*/
 
+//use this for testing or random questions
 const options = {
 	method: 'GET'
 };
