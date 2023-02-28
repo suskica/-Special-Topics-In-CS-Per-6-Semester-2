@@ -1,15 +1,15 @@
-function chooseAnswer(answer) {
-    if (answer == "red") {
-        blueToRed();
-    } else {
-        redToBlue();
+var answered = false;
+
+function redToBlue() {
+    if (!answered) {
+        document.getElementById("redImg").src = "assets\\images\\blue.jpg";
+        answered = true;
     }
 }
 
-function redToBlue() {
-    document.getElementById("redImg").src = "assets\images\blue.jpg";
-}
-
 function blueToRed() {
-    document.getElementById("blueImg").src = "assets\images\red.jpg";
+    if (!answered) {
+        document.getElementById("blueImg").src = "assets\\images\\red.jpg";
+        answered = true;
+    }
 }
