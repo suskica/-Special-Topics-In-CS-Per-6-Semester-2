@@ -22,3 +22,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.redImg {
+    border-radius: 40px 0px 0px 40px;
+}
+
+.blueImg {
+    border-radius: 0px 40px 40px 0px;
+}
